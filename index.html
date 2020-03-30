@@ -8,12 +8,40 @@
       <link rel="stylesheet" href="resources/styles.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+      <link rel="stylesheet" href="queries.css">
 </head>
 <body>
     
     
-    <div style="background-color: black;" class="slide active hero">
-          
+    <header id ="hero" style="background-color: black;" class="slide active hero">
+          	<nav class="group">
+
+			<div class="row">
+<!--				<img src="resources/img/andy_logo.png" alt="Andy logo" class="logo">-->
+				<!--		<img src="resources/img/andy_logo2.png" alt="Andy logo2" class="logo2">-->
+				<!--		include logo in  same place-->
+				<ul class="main-nav js--main-nav">
+					<li><a href="#hero">HOME</a></li>
+					<li><a href="#features">ABOUT</a></li>
+					<li id="inner"><a href="#plans">Projects</a>
+<!--
+						<ul class="dropdown">
+							<li><a href="">London Public Speaking Club</a></li>
+							<li><a href="">Online Course</a></li>
+							<li><a href="">Fear of Public Speaking Workshop</a></li>
+
+						</ul>
+-->
+					</li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>
+				<div class="menu_toggler">
+					<span></span>
+
+				</div>
+			</div>
+		</nav>
+         
           <div class="titles">
           <h1 class="hero__title">Nez Mustafa</h1>
           
@@ -249,7 +277,7 @@
     <p class="hero__intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui omnis eos reprehenderit necessitatibus placeat, tempora possimus ducimus labore ullam recusandae perspiciatis in laboriosam optio minus nisi harum provident reiciendis ab?</p>
           
           
-</div>
+</header>
       
     
     <div class="slide">
@@ -758,5 +786,6 @@
 
       </script>
       <script src="svg.js"></script>
+      <script src="script.js"></script>
 </body>
 </html>
