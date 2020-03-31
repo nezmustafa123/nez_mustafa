@@ -50,27 +50,29 @@ h1,p {
     margin-left: 30%;
 }
 
+
 .hero__title {
     position: absolute;
     display: inline-block;
-    top: 20%;
+    bottom: -20%;
     left: 20%;
    font-size: 3rem;
+	margin-bottom: 2rem;
     
 }
 
 .hero__title--two {
-     position: absolute;
+    position: absolute;
     display: inline-block;
     color: aliceblue;
-    left: 20%;
-    top: 30%;
+    left: 40%;
+    top 100%;
     font-size: 1rem;
-	margin-top: 1rem;
+	margin-top: 0rem;
 }
 
 .hero__intro {
-    max-width: 50%;
+    width: 50%;
     display: block;
     margin-right: 40%;
     
